@@ -20,7 +20,7 @@ sendBtn.addEventListener('click', () => {
 })
 
 //isTexting
-message.addEventListener('keypress', () => {
+message.addEventListener('keyup', () => {
   socket.emit('isTexting', {
     name: (name.value != '' && name.value != ' ') ? name.value : 'unknown user'
   })
