@@ -76,3 +76,17 @@
 .output-box p:active {
   background-color: #bdc3c7;
 }
+
+@media only screen and (max-width: 480px){
+  .output-box {
+    margin: 20px auto;
+    height: 240px;
+    overflow-y: scroll;
+    font-family: monospace;
+    width: 90%;
+    text-align: left;
+    font-weight: lighter;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+  }
+}
