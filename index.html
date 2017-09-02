@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Akmal Maulana Azzam" />
+  <meta name="description" content="Realtime Chat App" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/master.css" />
+  <script src="/socket.io/socket.io.js"></script>
+  <title>Chat IO</title>
+</head>
+
+<body>
+  <div class="container-chatbox">
+    <div class="output-box">
+      <div class="output" id="output">
+
+      </div>
+      <div id="isTexting"></div>
+    </div>
+    <div class="message-input">
+      <input type="text" id="name" placeholder="Name..." class="input form-content">
+      <input type="text" id="message" placeholder="Message..." class="input form-content">
+      <button id="send" class="button form-content">Send</button>
+    </div>
+  </div>
+  <script src="/js/chat.js"></script>
+</body>
+
+</html>
